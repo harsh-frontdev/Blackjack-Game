@@ -61,3 +61,62 @@ function newCard() {
         renderGame()
     }
 }
+
+// Practice
+/* let person = {
+    name : "John",
+    age : 21,
+    country : "United States"
+}
+
+function logData(){
+    console.log(person.name + " is " + person.age + " years old and lives in " + person.country)
+}
+logData()
+
+let age = 67
+
+if (age < 6){
+    console.log('\nFree');
+} else if ( age < 18 ) {
+    console.log('\nchild discount');
+} else if ( age < 27 ) {
+    console.log('\nstudent discount');
+} else if ( age < 67 ) {
+    console.log('\nfull price');
+} else {
+    console.log('\nsenior citizen discout');
+}
+
+let largeCountries = ["United States", "Canada", "India", "China", "Ecuador"]
+
+console.log('\nThe five largest countries in the world');
+for (let i = 0; i < largeCountries.length; i++) {
+    console.log('- ' + largeCountries[i])
+}
+
+let largeCountries1 = ["Tuvalu", "Canada", "India", "China", "Monaco"]
+largeCountries1.pop()
+largeCountries1.shift()
+largeCountries1.unshift("United States")
+largeCountries1.push("Ecuador")
+console.log('\nThe five largest countries in the world');
+for (let i = 0; i < largeCountries1.length; i++) {
+    console.log('- ' + largeCountries1[i])
+}
+
+let dayOfMonth = 13
+let weekday = "Friday"
+
+if (dayOfMonth === 13 && weekday === "Friday") {
+    console.log('\n Spooky');
+}
+
+let hands = ["Rock", "Paper", "Scissors"]
+
+function getHand(){
+    let randomIndex = Math.floor(Math.random() * 3);
+    return hands[randomIndex]
+}
+console.log("\n" + getHand());
+*/
